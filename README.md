@@ -61,10 +61,17 @@ cd ..
 python3 tools/incremental.py
 ```
 
+Or run everything in one step:
+
+```bash
+./tools/run_pipeline.sh
+```
+
 Outputs:
 
 - `build/master.pdf` – compiled PDF.
 - `tex/master.page_map.json` – page → element IDs map produced by Lua (falls back next to `master.tex` when TeX lacks permission to move it into `build/`).
+- `build/page_hashes.json` – stored element hashes.
 - `build/page_hashes.json` – stored element hashes.
 
 ## Incremental update

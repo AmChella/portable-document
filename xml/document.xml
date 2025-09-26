@@ -239,7 +239,8 @@
   <section id="sec4">
     <title>Cross-Reference Integrity</title>
     <note id="sec4-note">
-      Coordinate with release engineering when bumping TeX Live to ensure reproducible outputs.
+            Coordinate with release engineering when bumping TeX Live to ensure reproducible
+            outputs.
     </note>
     <para id="sec4-p1">
       <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>

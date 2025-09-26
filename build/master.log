@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.26)  26 SEP 2025 15:50
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.26)  26 SEP 2025 22:49
  restricted system commands enabled.
 **master.tex
 (./master.tex
@@ -777,7 +777,7 @@ File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
 Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box82
 )
-(../build/master.aux)
+(/Users/che/Code/Office/LaTexPdfGenerator/build/master.aux)
 \openout1 = master.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -865,14 +865,16 @@ nslations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 2.
 Package hyperref Info: Link coloring ON on input line 2.
- (../build/master.out) (../build/master.out)
+
+(/Users/che/Code/Office/LaTexPdfGenerator/build/master.out)
+(/Users/che/Code/Office/LaTexPdfGenerator/build/master.out)
 \@outlinefile=\write4
 
 \openout4 = master.out
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(../build/../build/body.tex
+(/Users/che/Code/Office/LaTexPdfGenerator/build/../build/body.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
@@ -995,7 +997,7 @@ te TeX sources for re-pro-ducibil-ity. $[][] \OML/cmm/m/it/10.95 k \OT1/cmr/m/n
 
 [15]
 
-[16] (../build/master.aux)
+[16] (/Users/che/Code/Office/LaTexPdfGenerator/build/master.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
