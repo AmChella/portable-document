@@ -1,0 +1,221 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric}
+\definecolor{pipelineBlue}{RGB}{63,125,247}
+\definecolor{pipelineGreen}{RGB}{88,176,135}
+\definecolor{pipelineOrange}{RGB}{239,149,88}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{luacode}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=magenta,
+  citecolor=teal
+}
+
+\setlength{\parskip}{0.8ex}
+\setlength{\parindent}{0pt}
+
+\newcommand{\pdfid}[1]{\directlua{log_pdf_element_id("#1")}}
+
+\begin{luacode*}
+local page_elements = {}
+local page_num = 0
+
+local function json_escape(str)
+  str = str:gsub('\\', '\\\\'):gsub('"', '\\"')
+  str = str:gsub('\b', '\\b'):gsub('\f', '\\f')
+  str = str:gsub('\n', '\\n'):gsub('\r', '\\r'):gsub('\t', '\\t')
+  str = str:gsub('[\0-\31]', function(c)
+    return string.format('\\u%04X', string.byte(c))
+  end)
+  return str
+end
+
+local function encode_page_map(page_map, total_pages)
+  local parts = {"{"}
+  for page = 1, total_pages do
+    if page > 1 then parts[#parts+1] = "," end
+    parts[#parts+1] = string.format('"%d":[', page)
+    local ids = page_map[page] or {}
+    for idx, id in ipairs(ids) do
+      if idx > 1 then parts[#parts+1] = "," end
+      parts[#parts+1] = "\"" .. json_escape(id) .. "\""
+    end
+    parts[#parts+1] = "]"
+  end
+  parts[#parts+1] = "}"
+  return table.concat(parts)
+end
+
+function log_pdf_element_id(id)
+  page_elements[#page_elements+1] = id
+end
+
+local function resolve_output_path(name)
+  local function normalize_path(path)
+    local is_absolute = path:sub(1, 1) == "/"
+    local segments = {}
+    for segment in string.gmatch(path, "[^/]+") do
+      if segment == ".." then
+        if #segments > 0 then
+          table.remove(segments)
+        end
+      elseif segment ~= "." and segment ~= "" then
+        segments[#segments+1] = segment
+      end
+    end
+    local normalized = table.concat(segments, "/")
+    if is_absolute then
+      return "/" .. normalized
+    end
+    return normalized
+  end
+
+  local function make_absolute(path)
+    if not path or path == "" then
+      return nil
+    end
+    if path:sub(1, 1) == "/" then
+      return normalize_path(path)
+    end
+    local pwd = kpse.expand_var("$PWD")
+    if pwd and pwd ~= "" then
+      return normalize_path(pwd .. "/" .. path)
+    end
+    return normalize_path(path)
+  end
+
+  local function join(dir, file)
+    if dir:sub(-1) == "/" then
+      return dir .. file
+    end
+    return dir .. "/" .. file
+  end
+
+  local output_dir = (status and status.output_directory) or tex.outputdir
+  local abs_dir = make_absolute(output_dir)
+  if abs_dir then
+  return join(abs_dir, name)
+  end
+
+  local pwd = kpse.expand_var("$PWD")
+  if pwd and pwd ~= "" then
+    return join(pwd, name)
+  end
+
+  return name
+end
+
+local callback_lib
+do
+  local ok, lib = pcall(require, "luatexbase.callback")
+  if ok and lib then
+    callback_lib = lib
+  elseif luatexbase then
+    callback_lib = luatexbase
+  else
+    callback_lib = callback
+  end
+end
+
+local function try_add_callback(name, fn, description)
+  if callback_lib and callback_lib.add_to_callback then
+    local ok = pcall(callback_lib.add_to_callback, name, fn, description or "pdfid")
+    if ok then
+      return true
+    end
+  end
+  if callback and callback.register then
+    local ok = pcall(callback.register, name, fn)
+    if ok then
+      return true
+    end
+  end
+  return false
+end
+
+local function shipout_common()
+  page_num = page_num + 1
+  local seen = {}
+  local list = {}
+  for _, id in ipairs(page_elements) do
+    if not seen[id] then
+      seen[id] = true
+      list[#list+1] = id
+    end
+  end
+  tex.global_page_map = tex.global_page_map or {}
+  tex.global_page_map[page_num] = list
+  page_elements = {}
+end
+
+local function shipout_filter(head)
+  shipout_common()
+  return head
+end
+
+local function shipout_no_return(...)
+  shipout_common()
+  return ...
+end
+
+local function register_shipout_callback()
+  local candidates = {
+    {name = "pre_shipout_filter", handler = shipout_filter, desc = "pdfid.pre_shipout"},
+    {name = "shipout/before", handler = shipout_no_return, desc = "pdfid.shipout_before"},
+    {name = "finish_pdfpage", handler = shipout_no_return, desc = "pdfid.finish_pdfpage"}
+  }
+  for _, candidate in ipairs(candidates) do
+    if try_add_callback(candidate.name, candidate.handler, candidate.desc) then
+      return true
+    end
+  end
+  texio.write_nl("term", "pdfid: warning: unable to register page-tracking callback")
+  return false
+end
+
+local function finish()
+  local fname = tex.jobname .. ".page_map.json"
+  local fh, err = io.open(fname, "w")
+  if not fh then
+    texio.write_nl("term", string.format("pdfid: warning: cannot write %s (%s)", fname, tostring(err)))
+    return
+  end
+  local serialized = encode_page_map(tex.global_page_map or {}, page_num)
+  fh:write(serialized)
+  fh:close()
+
+    local target_path = resolve_output_path(fname)
+    if target_path ~= fname then
+      local ok, move_err = os.rename(fname, target_path)
+      if not ok then
+        texio.write_nl("term", string.format("pdfid: note: keeping page map at %s (target %s unavailable: %s)", fname, target_path, tostring(move_err)))
+      end
+    end
+end
+
+local callbacks_registered = false
+
+local function register_callbacks()
+  if callbacks_registered then
+    return
+  end
+  register_shipout_callback()
+  if not try_add_callback("finish_pdffile", finish, "pdfid.finish_pdffile") then
+    texio.write_nl("term", "pdfid: warning: unable to register finish callback")
+  end
+  callbacks_registered = true
+end
+
+register_callbacks()
+\end{luacode*}

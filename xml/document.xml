@@ -1,0 +1,963 @@
+<document>
+  <section id="sec1">
+    <title>Incremental Build Fundamentals</title>
+    <note id="sec1-note">
+      Audit logs should capture the command invocation and hash diffs for compliance review.
+    </note>
+    <para id="sec1-p1">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\alpha_{2} + \beta_{3} = \gamma_{4}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\det(M_{3}) = 1]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails.</run>
+    </para>
+    <para id="sec1-p2">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\nabla f_{3}(x) = 0]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\left\|A_{4}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec1-p3">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{5} k = \frac{6(7+1)}{2}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec1-p4">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\left\|A_{5}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{6})]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec1-p5">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{7} k = \frac{8(9+1)}{2}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec1-p6">
+      <run>The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\nabla f_{7}(x) = 0]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{8})]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec1-p7">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\det(M_{9}) = 1]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+    </list>
+    <equation id="sec1-eq1" label="eq:sec1-eq1">
+      <latex><![CDATA[\frac{d}{dt} E_{1}(t) = -\eta_{2} E_{3}(t) + u_{4}(t)]]></latex>
+    </equation>
+    <display-math id="sec1-disp1"><![CDATA[\mathbf{J}_{1} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec1" label="fig:fig-sec1">
+      <image src="../assets/images/placeholder2.png" width="0.82\linewidth" />
+      <caption>Section 1 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec2">
+    <title>Stable Pagination Techniques</title>
+    <note id="sec2-note">
+      Coordinate with release engineering when bumping TeX Live to ensure reproducible outputs.
+    </note>
+    <para id="sec2-p1">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{3})]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec2-p2">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\left\|A_{4}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{5} \, dx = \frac{1}{6}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently.</run>
+    </para>
+    <para id="sec2-p3">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\det(M_{6}) = 1]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec2-p4">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\alpha_{6} + \beta_{7} = \gamma_{8}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec2-p5">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\left\|A_{7}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\det(M_{8}) = 1]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec2-p6">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\det(M_{8}) = 1]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\det(M_{9}) = 1]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec2-p7">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{10})]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+    </list>
+    <equation id="sec2-eq1" label="eq:sec2-eq1">
+      <latex><![CDATA[\sum_{k=0}^{N} a_k^{(2)} x^k = b^{(3)}(x)]]></latex>
+    </equation>
+    <display-math id="sec2-disp1"><![CDATA[\operatorname{argmin}_{x \in \mathbb{R}^{n}} \left\{ f_{2}(x) + \lambda_{3} g(x) \right\}]]></display-math>
+    <figure id="fig-sec2" label="fig:fig-sec2">
+      <tikz><![CDATA[\begin{tikzpicture}[scale=0.9]
+  \node[draw, rounded corners, fill=pipelineBlue, minimum width=6cm, minimum height=1.1cm] (a) {Stable Pagination Techniques};
+  \node[draw, below=0.9cm of a, fill=pipelineGreen, minimum width=6cm, minimum height=1.1cm] (b) {Metrics};
+  \node[draw, below=0.9cm of b, fill=pipelineOrange, minimum width=6cm, minimum height=1.1cm] (c) {Rebuild};
+  \draw[-{Stealth[length=7pt]}, thick] (a) -- (b);
+  \draw[-{Stealth[length=7pt]}, thick] (b) -- (c);
+\end{tikzpicture}]]></tikz>
+      <caption>Section 2 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec3">
+    <title>Semantic Change Detection</title>
+    <note id="sec3-note">
+      Audit logs should capture the command invocation and hash diffs for compliance review.
+    </note>
+    <para id="sec3-p1">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\alpha_{4} + \beta_{5} = \gamma_{6}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\nabla f_{5}(x) = 0]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec3-p2">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\left\|A_{5}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\det(M_{6}) = 1]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <para id="sec3-p3">
+      <run>The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\det(M_{6}) = 1]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{7} k = \frac{8(9+1)}{2}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec3-p4">
+      <run>The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\left\|A_{7}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{8})]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec3-p5">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{8} \, dx = \frac{1}{9}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{9})]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec3-p6">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\nabla f_{9}(x) = 0]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{10} k = \frac{11(12+1)}{2}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec3-p7">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\det(M_{10}) = 1]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\alpha_{11} + \beta_{12} = \gamma_{13}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+    </list>
+    <equation id="sec3-eq1" label="eq:sec3-eq1">
+      <latex><![CDATA[F_{3}(s) = \int_{0}^{\infty} f_{4}(t) e^{-st} \, dt]]></latex>
+    </equation>
+    <display-math id="sec3-disp1"><![CDATA[\operatorname{argmin}_{x \in \mathbb{R}^{n}} \left\{ f_{3}(x) + \lambda_{4} g(x) \right\}]]></display-math>
+    <figure id="fig-sec3" label="fig:fig-sec3">
+      <image src="../assets/images/placeholder2.png" width="0.82\linewidth" />
+      <caption>Section 3 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec4">
+    <title>Cross-Reference Integrity</title>
+    <note id="sec4-note">
+            Coordinate with release engineering when bumping TeX Live to ensure reproducible
+            outputs.
+    </note>
+    <para id="sec4-p1">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\left\|A_{5}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{6} k = \frac{7(8+1)}{2}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec4-p2">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\det(M_{7}) = 1]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec4-p3">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{7} \, dx = \frac{1}{8}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\alpha_{8} + \beta_{9} = \gamma_{10}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec4-p4">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{8} \, dx = \frac{1}{9}]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\left\|A_{9}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec4-p5">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\det(M_{10}) = 1]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec4-p6">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\alpha_{10} + \beta_{11} = \gamma_{12}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\nabla f_{11}(x) = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec4-p7">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{11} k = \frac{12(13+1)}{2}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{12})]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+    </list>
+    <equation id="sec4-eq1" label="eq:sec4-eq1">
+      <latex><![CDATA[F_{4}(s) = \int_{0}^{\infty} f_{5}(t) e^{-st} \, dt]]></latex>
+    </equation>
+    <display-math id="sec4-disp1"><![CDATA[\mathbf{J}_{4} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec4" label="fig:fig-sec4">
+      <tikz><![CDATA[\begin{tikzpicture}[scale=0.9]
+  \node[draw, rounded corners, fill=pipelineBlue, minimum width=6cm, minimum height=1.1cm] (a) {Cross-Reference Integrity};
+  \node[draw, below=0.9cm of a, fill=pipelineGreen, minimum width=6cm, minimum height=1.1cm] (b) {Metrics};
+  \node[draw, below=0.9cm of b, fill=pipelineOrange, minimum width=6cm, minimum height=1.1cm] (c) {Rebuild};
+  \draw[-{Stealth[length=7pt]}, thick] (a) -- (b);
+  \draw[-{Stealth[length=7pt]}, thick] (b) -- (c);
+\end{tikzpicture}]]></tikz>
+      <caption>Section 4 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec5">
+    <title>Float Placement Strategy</title>
+    <note id="sec5-note">
+      Cache invalidation must respect localized overrides defined by content teams.
+    </note>
+    <para id="sec5-p1">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\alpha_{6} + \beta_{7} = \gamma_{8}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\left\|A_{7}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec5-p2">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{7})]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{8})]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec5-p3">
+      <run>The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\alpha_{8} + \beta_{9} = \gamma_{10}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{9} k = \frac{10(11+1)}{2}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec5-p4">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\alpha_{9} + \beta_{10} = \gamma_{11}]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{10} \, dx = \frac{1}{11}]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec5-p5">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\alpha_{10} + \beta_{11} = \gamma_{12}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{11})]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently.</run>
+    </para>
+    <para id="sec5-p6">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\left\|A_{11}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\left\|A_{12}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec5-p7">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\left\|A_{12}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\nabla f_{13}(x) = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+    </list>
+    <equation id="sec5-eq1" label="eq:sec5-eq1">
+      <latex><![CDATA[\sum_{k=0}^{N} a_k^{(5)} x^k = b^{(6)}(x)]]></latex>
+    </equation>
+    <display-math id="sec5-disp1"><![CDATA[\mathbf{J}_{5} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec5" label="fig:fig-sec5">
+      <image src="../assets/images/placeholder2.png" width="0.82\linewidth" />
+      <caption>Section 5 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec6">
+    <title>Mathematical Layout Experiments</title>
+    <note id="sec6-note">
+      Coordinate with release engineering when bumping TeX Live to ensure reproducible outputs.
+    </note>
+    <para id="sec6-p1">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\det(M_{7}) = 1]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec6-p2">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\nabla f_{9}(x) = 0]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec6-p3">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\nabla f_{10}(x) = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec6-p4">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\det(M_{10}) = 1]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{11} k = \frac{12(13+1)}{2}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec6-p5">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\alpha_{12} + \beta_{13} = \gamma_{14}]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec6-p6">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{12} \, dx = \frac{1}{13}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\alpha_{13} + \beta_{14} = \gamma_{15}]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <para id="sec6-p7">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\nabla f_{13}(x) = 0]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{14})]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+    </list>
+    <equation id="sec6-eq1" label="eq:sec6-eq1">
+      <latex><![CDATA[\frac{d}{dt} E_{6}(t) = -\eta_{7} E_{8}(t) + u_{9}(t)]]></latex>
+    </equation>
+    <display-math id="sec6-disp1"><![CDATA[\mathbf{J}_{6} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec6" label="fig:fig-sec6">
+      <tikz><![CDATA[\begin{tikzpicture}[scale=0.9]
+  \node[draw, rounded corners, fill=pipelineBlue, minimum width=6cm, minimum height=1.1cm] (a) {Mathematical Layout Experiments};
+  \node[draw, below=0.9cm of a, fill=pipelineGreen, minimum width=6cm, minimum height=1.1cm] (b) {Metrics};
+  \node[draw, below=0.9cm of b, fill=pipelineOrange, minimum width=6cm, minimum height=1.1cm] (c) {Rebuild};
+  \draw[-{Stealth[length=7pt]}, thick] (a) -- (b);
+  \draw[-{Stealth[length=7pt]}, thick] (b) -- (c);
+\end{tikzpicture}]]></tikz>
+      <caption>Section 6 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec7">
+    <title>Graphics and Asset Pipeline</title>
+    <note id="sec7-note">
+      Coordinate with release engineering when bumping TeX Live to ensure reproducible outputs.
+    </note>
+    <para id="sec7-p1">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{8} k = \frac{9(10+1)}{2}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{9} \, dx = \frac{1}{10}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec7-p2">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\left\|A_{9}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\left\|A_{10}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec7-p3">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\alpha_{10} + \beta_{11} = \gamma_{12}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\det(M_{11}) = 1]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec7-p4">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\det(M_{11}) = 1]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{12} k = \frac{13(14+1)}{2}]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <para id="sec7-p5">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\left\|A_{12}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\alpha_{13} + \beta_{14} = \gamma_{15}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec7-p6">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{13} \, dx = \frac{1}{14}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\nabla f_{14}(x) = 0]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails.</run>
+    </para>
+    <para id="sec7-p7">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{14})]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\alpha_{15} + \beta_{16} = \gamma_{17}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+    </list>
+    <equation id="sec7-eq1" label="eq:sec7-eq1">
+      <latex><![CDATA[F_{7}(s) = \int_{0}^{\infty} f_{8}(t) e^{-st} \, dt]]></latex>
+    </equation>
+    <display-math id="sec7-disp1"><![CDATA[\operatorname{argmin}_{x \in \mathbb{R}^{n}} \left\{ f_{7}(x) + \lambda_{8} g(x) \right\}]]></display-math>
+    <figure id="fig-sec7" label="fig:fig-sec7">
+      <image src="../assets/images/placeholder2.png" width="0.82\linewidth" />
+      <caption>Section 7 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec8">
+    <title>Performance Benchmarking</title>
+    <note id="sec8-note">
+      Audit logs should capture the command invocation and hash diffs for compliance review.
+    </note>
+    <para id="sec8-p1">
+      <run>The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\nabla f_{9}(x) = 0]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\det(M_{10}) = 1]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec8-p2">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{11})]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec8-p3">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\nabla f_{11}(x) = 0]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\left\|A_{12}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec8-p4">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\alpha_{12} + \beta_{13} = \gamma_{14}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\nabla f_{13}(x) = 0]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails.</run>
+    </para>
+    <para id="sec8-p5">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{13} k = \frac{14(15+1)}{2}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{14} \, dx = \frac{1}{15}]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec8-p6">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{14} \, dx = \frac{1}{15}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{15} k = \frac{16(17+1)}{2}]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec8-p7">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{15} k = \frac{16(17+1)}{2}]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{16} \, dx = \frac{1}{17}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+    </list>
+    <equation id="sec8-eq1" label="eq:sec8-eq1">
+      <latex><![CDATA[\frac{d}{dt} E_{8}(t) = -\eta_{9} E_{10}(t) + u_{11}(t)]]></latex>
+    </equation>
+    <display-math id="sec8-disp1"><![CDATA[\mathbf{J}_{8} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec8" label="fig:fig-sec8">
+      <tikz><![CDATA[\begin{tikzpicture}[scale=0.9]
+  \node[draw, rounded corners, fill=pipelineBlue, minimum width=6cm, minimum height=1.1cm] (a) {Performance Benchmarking};
+  \node[draw, below=0.9cm of a, fill=pipelineGreen, minimum width=6cm, minimum height=1.1cm] (b) {Metrics};
+  \node[draw, below=0.9cm of b, fill=pipelineOrange, minimum width=6cm, minimum height=1.1cm] (c) {Rebuild};
+  \draw[-{Stealth[length=7pt]}, thick] (a) -- (b);
+  \draw[-{Stealth[length=7pt]}, thick] (b) -- (c);
+\end{tikzpicture}]]></tikz>
+      <caption>Section 8 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec9">
+    <title>Quality Assurance Playbook</title>
+    <note id="sec9-note">
+      Remember to snapshot font metrics before switching compilation strategies.
+    </note>
+    <para id="sec9-p1">
+      <run>We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\alpha_{10} + \beta_{11} = \gamma_{12}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{11})]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec9-p2">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\nabla f_{11}(x) = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\det(M_{12}) = 1]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec9-p3">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{12})]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\nabla f_{13}(x) = 0]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec9-p4">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{13} k = \frac{14(15+1)}{2}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec9-p5">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\nabla f_{14}(x) = 0]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{15} k = \frac{16(17+1)}{2}]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails.</run>
+    </para>
+    <para id="sec9-p6">
+      <run>Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\det(M_{15}) = 1]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{16} \, dx = \frac{1}{17}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec9-p7">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\det(M_{16}) = 1]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{17})]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+    </list>
+    <equation id="sec9-eq1" label="eq:sec9-eq1">
+      <latex><![CDATA[\sum_{k=0}^{N} a_k^{(9)} x^k = b^{(10)}(x)]]></latex>
+    </equation>
+    <display-math id="sec9-disp1"><![CDATA[\mathbf{C}_{9} = Q_{10}^{\top} \mathbf{D}_{11} Q_{12}]]></display-math>
+    <figure id="fig-sec9" label="fig:fig-sec9">
+      <image src="../assets/images/placeholder2.png" width="0.82\linewidth" />
+      <caption>Section 9 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec10">
+    <title>Deployment and Automation</title>
+    <note id="sec10-note">
+      Remember to snapshot font metrics before switching compilation strategies.
+    </note>
+    <para id="sec10-p1">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\det(M_{11}) = 1]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\nabla f_{12}(x) = 0]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec10-p2">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{12} \, dx = \frac{1}{13}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{13} \, dx = \frac{1}{14}]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <para id="sec10-p3">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\left\|A_{13}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\det(M_{14}) = 1]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec10-p4">
+      <run>We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\left\|A_{14}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\left\|A_{15}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams.</run>
+    </para>
+    <para id="sec10-p5">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\alpha_{15} + \beta_{16} = \gamma_{17}]]></inline-math>
+      <run> Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\alpha_{16} + \beta_{17} = \gamma_{18}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec10-p6">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\det(M_{16}) = 1]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\det(M_{17}) = 1]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec10-p7">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\det(M_{17}) = 1]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Engineers rely on detailed telemetry to tune the performance of the Lua callbacks.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+    </list>
+    <equation id="sec10-eq1" label="eq:sec10-eq1">
+      <latex><![CDATA[\frac{d}{dt} E_{10}(t) = -\eta_{11} E_{12}(t) + u_{13}(t)]]></latex>
+    </equation>
+    <display-math id="sec10-disp1"><![CDATA[\mathbf{J}_{10} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec10" label="fig:fig-sec10">
+      <tikz><![CDATA[\begin{tikzpicture}[scale=0.9]
+  \node[draw, rounded corners, fill=pipelineBlue, minimum width=6cm, minimum height=1.1cm] (a) {Deployment and Automation};
+  \node[draw, below=0.9cm of a, fill=pipelineGreen, minimum width=6cm, minimum height=1.1cm] (b) {Metrics};
+  \node[draw, below=0.9cm of b, fill=pipelineOrange, minimum width=6cm, minimum height=1.1cm] (c) {Rebuild};
+  \draw[-{Stealth[length=7pt]}, thick] (a) -- (b);
+  \draw[-{Stealth[length=7pt]}, thick] (b) -- (c);
+\end{tikzpicture}]]></tikz>
+      <caption>Section 10 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec11">
+    <title>Collaboration and Review</title>
+    <note id="sec11-note">
+      Coordinate with release engineering when bumping TeX Live to ensure reproducible outputs.
+    </note>
+    <para id="sec11-p1">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\left\|A_{12}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\alpha_{13} + \beta_{14} = \gamma_{15}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions.</run>
+    </para>
+    <para id="sec11-p2">
+      <run>Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\nabla f_{14}(x) = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec11-p3">
+      <run>Diagnostics embed instrumentation to map element identifiers to page numbers for audit trails. </run>
+      <inline-math><![CDATA[\int_{0}^{1} x^{14} \, dx = \frac{1}{15}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec11-p4">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{15} k = \frac{16(17+1)}{2}]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{16} k = \frac{17(18+1)}{2}]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <para id="sec11-p5">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Each iteration compares structural hashes to determine whether TeX fragments must be recalculated.</run>
+    </para>
+    <para id="sec11-p6">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\nabla f_{17}(x) = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\nabla f_{18}(x) = 0]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control.</run>
+    </para>
+    <para id="sec11-p7">
+      <run>Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\nabla f_{18}(x) = 0]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents. </run>
+      <inline-math><![CDATA[\left\|A_{19}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Profile the pipeline before and after enabling Lua callbacks.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+    </list>
+    <equation id="sec11-eq1" label="eq:sec11-eq1">
+      <latex><![CDATA[\frac{d}{dt} E_{11}(t) = -\eta_{12} E_{13}(t) + u_{14}(t)]]></latex>
+    </equation>
+    <display-math id="sec11-disp1"><![CDATA[\mathbf{J}_{11} = \begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}]]></display-math>
+    <figure id="fig-sec11" label="fig:fig-sec11">
+      <image src="../assets/images/placeholder2.png" width="0.82\linewidth" />
+      <caption>Section 11 asset overview</caption>
+    </figure>
+  </section>
+  <section id="sec12">
+    <title>Future Roadmap</title>
+    <note id="sec12-note">
+      Remember to snapshot font metrics before switching compilation strategies.
+    </note>
+    <para id="sec12-p1">
+      <run>User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{13} k = \frac{14(15+1)}{2}]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\nabla f_{14}(x) = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec12-p2">
+      <run>Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[e^{i\pi} + 1 = 0]]></inline-math>
+      <run> The artifact registry stores both PDFs and intermediate TeX sources for reproducibility.</run>
+    </para>
+    <para id="sec12-p3">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{15} k = \frac{16(17+1)}{2}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\nabla f_{16}(x) = 0]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <para id="sec12-p4">
+      <run>This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\mathcal{O}(n^{16})]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures. </run>
+      <inline-math><![CDATA[\nabla f_{17}(x) = 0]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently.</run>
+    </para>
+    <para id="sec12-p5">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\alpha_{17} + \beta_{18} = \gamma_{19}]]></inline-math>
+      <run> User research highlights the importance of rapid preview cycles for editorial teams. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{18} k = \frac{19(20+1)}{2}]]></inline-math>
+      <run> Our typography guidelines demand consistent hyphenation even when chapters are compiled independently.</run>
+    </para>
+    <para id="sec12-p6">
+      <run>Engineers rely on detailed telemetry to tune the performance of the Lua callbacks. </run>
+      <inline-math><![CDATA[\left\|A_{18}\right\|_{2} = \sqrt{\lambda_{\max}}]]></inline-math>
+      <run> We schedule targeted compilations so that floats remain stable even as content evolves across revisions. </run>
+      <inline-math><![CDATA[\nabla f_{19}(x) = 0]]></inline-math>
+      <run> Caching policies respect cross references, ensuring that labels stay synchronized with the table of contents.</run>
+    </para>
+    <para id="sec12-p7">
+      <run>The artifact registry stores both PDFs and intermediate TeX sources for reproducibility. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{19} k = \frac{20(21+1)}{2}]]></inline-math>
+      <run> This section documents the incremental layout heuristics that keep the PDF rebuild under control. </run>
+      <inline-math><![CDATA[\sum_{k=1}^{20} k = \frac{21(22+1)}{2}]]></inline-math>
+      <run> Integration tests verify compatibility with math-heavy manuscripts and resource intensive figures.</run>
+    </para>
+    <list type="itemize">
+      <item>
+        Verify that math environments remain stable under incremental rebuilds.
+      </item>
+      <item>
+        Alert stakeholders when pagination shifts beyond tolerance thresholds.
+      </item>
+      <item>
+        Record the width of each float to monitor layout drift.
+      </item>
+      <item>
+        Capture reference counts for every bibliography entry.
+      </item>
+    </list>
+    <equation id="sec12-eq1" label="eq:sec12-eq1">
+      <latex><![CDATA[\frac{d}{dt} E_{12}(t) = -\eta_{13} E_{14}(t) + u_{15}(t)]]></latex>
+    </equation>
+    <display-math id="sec12-disp1"><![CDATA[\mathbf{C}_{12} = Q_{13}^{\top} \mathbf{D}_{14} Q_{15}]]></display-math>
+    <figure id="fig-sec12" label="fig:fig-sec12">
+      <tikz><![CDATA[\begin{tikzpicture}[scale=0.9]
+  \node[draw, rounded corners, fill=pipelineBlue, minimum width=6cm, minimum height=1.1cm] (a) {Future Roadmap};
+  \node[draw, below=0.9cm of a, fill=pipelineGreen, minimum width=6cm, minimum height=1.1cm] (b) {Metrics};
+  \node[draw, below=0.9cm of b, fill=pipelineOrange, minimum width=6cm, minimum height=1.1cm] (c) {Rebuild};
+  \draw[-{Stealth[length=7pt]}, thick] (a) -- (b);
+  \draw[-{Stealth[length=7pt]}, thick] (b) -- (c);
+\end{tikzpicture}]]></tikz>
+      <caption>Section 12 asset overview</caption>
+    </figure>
+  </section>
+</document>
