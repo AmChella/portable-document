@@ -1,0 +1,24 @@
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\newcommand{\paraid}[1]{\par\noindent\hypertarget{#1}{\ignorespaces}}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{parskip}
+
+\begin{document}
+\title{XML to TeX Transformation Example}{title1}
+
+
+\paraid{p1}This is a sample paragraph with \textit{emphasized text}.
+\par
+\paraid{p2}Another paragraph with special characters: 100\% success \&amp; \$5 cost.
+\par\vspace{10pt}
+\paraid{p3}Final paragraph after spacing.
+\par
+
+\end{document}

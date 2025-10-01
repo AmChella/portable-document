@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<article>
+    <head>
+        <ce:title id="title1">XML to TeX Transformation Example</ce:title>
+    </head>
+    <body>
+        <p id="p1">This is a sample paragraph with <ce:italic>emphasized text</ce:italic>.</p>
+        <p id="p2">Another paragraph with special characters: 100% success & $5 cost.</p>
+        <?xmltex vspace="10pt"?>
+        <p id="p3">Final paragraph after spacing.</p>
+    </body>
+</article>

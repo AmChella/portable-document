@@ -1,0 +1,196 @@
+<templates>
+    <template data-xml-selector="document" xml:space="preserve">
+\documentclass[12pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\IfFileExists{tikz.sty}{
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+}{}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\IfFileExists{zref-savepos.sty}{\usepackage{zref-savepos}}{}
+\definecolor{pipelineBlue}{HTML}{1F77B4}
+\definecolor{pipelineGreen}{HTML}{2CA02C}
+\definecolor{pipelineOrange}{HTML}{FF7F0E}
+\newcommand{\paraid}[1]{\par\noindent\hypertarget{#1}{\ignorespaces}}
+% Fallback macro: use #1 if not empty, otherwise #2
+\newcommand{\fallback}[2]{\if\relax\detokenize{#1}\relax #2 \else #1\fi}
+% Row/cell helpers for table rows without needing index logic
+\newcommand{\rowstart}{\global\let\isfirst\relax}
+\newcommand{\ampchar}{&}
+\newcommand{\maybeamp}{\ifx\isfirst\relax \global\let\isfirst\undefined \let\sep\relax \else \let\sep\ampchar \fi \sep}
+\newcommand{\cell}[1]{\maybeamp #1}
+
+\begin{document}
+
+% Geometry writer (zref-savepos preferred)
+\input{template/geom-marks.tex}
+
+<apply-template data-xml-selector="section"/>
+\end{document}
+</template>
+
+    <template data-xml-selector="section" xml:space="preserve">
+\section{[[title:.]]}
+\label{[[@id | raw]]}
+[[...]]
+</template>
+
+    <null-template data-xml-selector="section > title"/>
+
+    <template data-xml-selector="note" xml:space="preserve">
+\begin{quote}
+\hypertarget{[[@id | raw]]}{\textbf{Note.}} [[...]]
+\end{quote}
+</template>
+
+    <template data-xml-selector="para" xml:space="preserve">
+\paraid{[[@id | raw]]}\geommarkinline{[[@id | raw]]}{P-start}[[...]]\geommarkinline{[[@id | raw]]}{P-end}
+\par
+</template>
+
+    <template data-xml-selector="run">[[...]]</template>
+
+    <template data-xml-selector="inline-math">$[[. | raw]]$</template>
+
+    <template data-xml-selector="equation" xml:space="preserve">
+\begin{equation}
+\hypertarget{[[@id | raw]]}{[[latex:. | raw]]}
+\label{[[@label | raw]]}
+\end{equation}
+</template>
+
+    <template data-xml-selector="display-math" xml:space="preserve">
+\[
+\hypertarget{[[@id | raw]]}{[[. | raw]]}
+\]
+</template>
+
+    <template data-xml-selector="list[type='itemize']" xml:space="preserve">
+\begin{itemize}
+[[...]]
+\end{itemize}
+</template>
+
+    <template data-xml-selector="item" xml:space="preserve">
+\item [[...]]
+</template>
+
+    <!-- Double-column figure -->
+    <template data-xml-selector="figure[span='double']" xml:space="preserve">
+\begin{figure*}[htbp]
+\centering
+\hypertarget{[[@id | raw]]}{}\geommarknow{[[@id | raw]]}{FIG-start}
+% Image path and width fallback to \textwidth when no width attribute
+\IfFileExists{[[image:@src | raw]]}{
+\includegraphics[width=\fallback{[[image:@width | raw]]}{\textwidth}]{[[image:@src | raw]]}
+}{
+\PackageWarning{xml2tex}{Image [[image:@src | raw]] not found; figure omitted.}
+}
+<apply-template data-xml-selector="tikz"/>
+\caption{[[caption:.]]}
+\label{[[@label | raw]]}
+\hypertarget{[[@id | raw]]-end}{}\geommarknow{[[@id | raw]]}{FIG-end}
+\end{figure*}
+</template>
+
+    <!-- Single-column figure (default) -->
+    <template data-xml-selector="figure" xml:space="preserve">
+\begin{figure}[htbp]
+\centering
+\hypertarget{[[@id | raw]]}{}\geommarknow{[[@id | raw]]}{FIG-start}
+\IfFileExists{[[image:@src | raw]]}{
+\includegraphics[width=\fallback{[[image:@width | raw]]}{\columnwidth}]{[[image:@src | raw]]}
+}{
+\PackageWarning{xml2tex}{Image [[image:@src | raw]] not found; figure omitted.}
+}
+<apply-template data-xml-selector="tikz"/>
+\caption{[[caption:.]]}
+\label{[[@label | raw]]}
+\hypertarget{[[@id | raw]]-end}{}\geommarknow{[[@id | raw]]}{FIG-end}
+\end{figure}
+</template>
+
+    <null-template data-xml-selector="figure > caption"/>
+
+    <!-- Keep for direct image usage outside figure, if any -->
+    <template data-xml-selector="image" xml:space="preserve">
+\IfFileExists{[[@src | raw]]}{
+\includegraphics[width=\fallback{[[@width | raw]]}{\columnwidth}]{[[@src | raw]]}
+}{
+\PackageWarning{xml2tex}{Image [[@src | raw]] not found; figure omitted.}
+}
+</template>
+
+    <template data-xml-selector="tikz" xml:space="preserve">
+\IfFileExists{tikz.sty}{
+[[. | raw]]
+}{
+\PackageWarning{xml2tex}{TikZ package not available; figure omitted.}
+}
+</template>
+
+    <!-- Tables -->
+    <template data-xml-selector="table[span='double']" xml:space="preserve">
+\begin{table*}[htbp]
+\centering
+\hypertarget{[[@id | raw]]}{}\geommarknow{[[@id | raw]]}{TABLE-start}
+\caption{[[caption:.]]}
+\label{[[@label | raw]]}
+\begin{tabularx}{\fallback{[[@width | raw]]}{\textwidth}}{[[@cols | raw]]}
+\toprule
+<apply-template data-xml-selector="thead"/>
+\midrule
+<apply-template data-xml-selector="tbody"/>
+\bottomrule
+\end{tabularx}
+\hypertarget{[[@id | raw]]-end}{}\geommarknow{[[@id | raw]]}{TABLE-end}
+\end{table*}
+</template>
+
+    <template data-xml-selector="table" xml:space="preserve">
+\begin{table}[htbp]
+\centering
+\hypertarget{[[@id | raw]]}{}\geommarknow{[[@id | raw]]}{TABLE-start}
+\caption{[[caption:.]]}
+\label{[[@label | raw]]}
+\begin{tabularx}{\fallback{[[@width | raw]]}{\columnwidth}}{[[@cols | raw]]}
+\toprule
+<apply-template data-xml-selector="thead"/>
+\midrule
+<apply-template data-xml-selector="tbody"/>
+\bottomrule
+\end{tabularx}
+\hypertarget{[[@id | raw]]-end}{}\geommarknow{[[@id | raw]]}{TABLE-end}
+\end{table}
+</template>
+
+    <null-template data-xml-selector="table > caption"/>
+
+    <template data-xml-selector="thead" xml:space="preserve">
+[[...]]
+</template>
+
+    <template data-xml-selector="tbody" xml:space="preserve">
+[[...]]
+</template>
+
+    <template data-xml-selector="tr" xml:space="preserve">
+\rowstart [[...]] \\
+</template>
+
+    <template data-xml-selector="th" xml:space="preserve">\cell{\textbf{[[...]]}}</template>
+    <template data-xml-selector="td" xml:space="preserve">\cell{[[...]]}</template>
+
+    <template data-xml-selector="latex" xml:space="preserve">
+[[. | raw]]
+</template>
+</templates>

@@ -1,0 +1,36 @@
+% zref-savepos based markers (two-pass)
+% We record positions with zref-savepos and also emit NDJSON lines that the
+% Node builder can parse. On the Nth run, the emitted coordinates reflect
+% positions from the (N-1)th run, which is sufficient for stable layouts.
+
+% Ensure macro exists even if the package is missing (no-ops)
+\providecommand\zsavepos[1]{}
+\providecommand\zposx[1]{0}
+\providecommand\zposy[1]{0}
+
+% Open a per-job NDJSON file for TeX positions
+\newwrite\geomout
+\immediate\openout\geomout=\jobname-texpos.ndjson
+\AtEndDocument{\immediate\closeout\geomout}
+
+% Helper to emit a JSON line to both log and NDJSON file for the Node builder
+\def\geomemit#1#2{%% #1=id, #2=role
+  \begingroup
+    \edef\gid{#1}%%
+    \edef\grole{#2}%%
+    \edef\gx{\zposx{gm:#1:#2}}%% scaled points
+    \edef\gy{\zposy{gm:#1:#2}}%% scaled points
+    \edef\gpage{\the\value{page}}%% current (relative) page number
+    \edef\gpw{\the\paperwidth}%% e.g., 597.50787pt for A4 with 1in margins
+    \edef\gph{\the\paperheight}%%
+    % Write NDJSON (no line wrapping)
+    \immediate\write\geomout{ {"id":"\gid","role":"\grole","xsp":"\gx","ysp":"\gy","pw":"\gpw","ph":"\gph","page":\gpage} }%%
+    % Also echo to log for debugging (may wrap)
+    \typeout{GEOM: {"id":"\gid","role":"\grole","xsp":"\gx","ysp":"\gy","pw":"\gpw","ph":"\gph","page":\gpage}}%% NDJSON duplicate
+  \endgroup
+}
+
+% Inline mark attaches to the current line; safe in paragraph mode
+\def\geommarkinline#1#2{\vadjust{\zsavepos{gm:#1:#2}\geomemit{#1}{#2}}}
+% Immediate mark for floats (figures, tables)
+\def\geommarknow#1#2{\zsavepos{gm:#1:#2}\geomemit{#1}{#2}}

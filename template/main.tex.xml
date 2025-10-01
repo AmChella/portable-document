@@ -1,0 +1,32 @@
+<templates>
+    <!-- Explicitly process the children of these container tags -->
+    <template data-xml-selector="article" xml:space="preserve">
+\documentclass[12pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\newcommand{\paraid}[1]{\par\noindent\hypertarget{#1}{\ignorespaces}}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{parskip}
+
+\begin{document}
+<apply-template data-xml-selector="head"/>
+<apply-template data-xml-selector="body"/>
+<apply-template data-xml-selector="tail"/>
+\end{document}
+</template>
+    <template data-xml-selector="head">[[...]]</template>
+    <template data-xml-selector="body">[[...]]</template>
+    <template data-xml-selector="head > ce:title">
+    \title{[[...]]}{[[@id | raw]]}\n
+    </template>
+    <template data-xml-selector="ce:italic">
+    \textit{[[...]]}
+    </template>
+    <template data-xml-selector="p">\n\paraid{[[@id | raw]]}[[...]]\n\par
+</template>
+    <pi-template target="xmltex">\vspace{[[@vspace]]}</pi-template>
+</templates>
