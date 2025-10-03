@@ -2,11 +2,28 @@
 % We record positions with zref-savepos and also emit NDJSON lines that the
 % Node builder can parse. On the Nth run, the emitted coordinates reflect
 % positions from the (N-1)th run, which is sufficient for stable layouts.
+% zref-savepos based markers (two-pass)
+% We record positions with zref-savepos and also emit NDJSON lines that the
+% Node builder can parse. On the Nth run, the emitted coordinates reflect
+% positions from the (N-1)th run, which is sufficient for stable layouts.
 
 % Ensure macro exists even if the package is missing (no-ops)
 \providecommand\zsavepos[1]{}
 \providecommand\zposx[1]{0}
 \providecommand\zposy[1]{0}
+
+\makeatletter
+\newcommand*\geom@colindex{%
+  \if@twocolumn
+    \if@firstcolumn 0\else 1\fi
+  \else
+    0%
+  \fi
+}
+\newcommand*\geom@twocol{%
+  \if@twocolumn 1\else 0\fi
+}
+\makeatother
 
 % Open a per-job NDJSON file for TeX positions
 \newwrite\geomout
@@ -14,6 +31,7 @@
 \AtEndDocument{\immediate\closeout\geomout}
 
 % Helper to emit a JSON line to both log and NDJSON file for the Node builder
+\makeatletter
 \def\geomemit#1#2{%% #1=id, #2=role
   \begingroup
     \edef\gid{#1}%%
@@ -23,12 +41,18 @@
     \edef\gpage{\the\value{page}}%% current (relative) page number
     \edef\gpw{\the\paperwidth}%% e.g., 597.50787pt for A4 with 1in margins
     \edef\gph{\the\paperheight}%%
+    \edef\gcw{\number\dimexpr\columnwidth\relax}%% column width (sp)
+    \edef\gtw{\number\dimexpr\textwidth\relax}%% text width (sp)
+    \edef\gsep{\number\dimexpr\columnsep\relax}%% column separation (sp)
+    \edef\gcol{\geom@colindex}%% column index (0-based)
+    \edef\gtwo{\geom@twocol}%% two-column flag
     % Write NDJSON (no line wrapping)
-    \immediate\write\geomout{ {"id":"\gid","role":"\grole","xsp":"\gx","ysp":"\gy","pw":"\gpw","ph":"\gph","page":\gpage} }%%
+    \immediate\write\geomout{ {"id":"\gid","role":"\grole","xsp":"\gx","ysp":"\gy","pw":"\gpw","ph":"\gph","page":\gpage,"cwsp":\gcw,"twsp":\gtw,"col":\gcol,"colsep":\gsep,"twocolumn":\gtwo} }%%
     % Also echo to log for debugging (may wrap)
-    \typeout{GEOM: {"id":"\gid","role":"\grole","xsp":"\gx","ysp":"\gy","pw":"\gpw","ph":"\gph","page":\gpage}}%% NDJSON duplicate
+    \message{GEOM: {"id":"\gid","role":"\grole","xsp":"\gx","ysp":"\gy","pw":"\gpw","ph":"\gph","page":\gpage,"cwsp":\gcw,"twsp":\gtw,"col":\gcol,"colsep":\gsep,"twocolumn":\gtwo}}%% NDJSON duplicate
   \endgroup
 }
+\makeatother
 
 % Inline mark attaches to the current line; safe in paragraph mode
 \def\geommarkinline#1#2{\vadjust{\zsavepos{gm:#1:#2}\geomemit{#1}{#2}}}

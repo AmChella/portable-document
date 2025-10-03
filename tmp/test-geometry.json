@@ -1,6 +1,6 @@
 {
   "pdfGeometryV1": {
-    "docId": "93977e33aa4233e2a65ccbd9ad5c454c0951d632f8be2e65c4e0c46fdb421fbf",
+    "docId": "8fbcbb292a23e847692bcd85be59d1a80d14c1deee09709b81a92ed1bcc5dc25",
     "pages": [
       {
         "index": 0,
@@ -21,6 +21,16 @@
                 289.34075479492185
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 187.8408,
+                "bottomPt": 289.3408
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               187.84075479492185,
@@ -31,13 +41,13 @@
               72.26998901367188,
               289.34075479492185
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec1-p2",
@@ -55,6 +65,16 @@
                 413.9780991552734
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 312.4781,
+                "bottomPt": 413.9781
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               312.4780991552734,
@@ -65,13 +85,13 @@
               72.26998901367188,
               413.9780991552734
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec1-p3",
@@ -89,6 +109,16 @@
                 538.615443515625
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 437.1154,
+                "bottomPt": 538.6154
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               437.115443515625,
@@ -99,13 +129,13 @@
               72.26998901367188,
               538.615443515625
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec1-p4",
@@ -123,6 +153,16 @@
                 663.2527726171875
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 561.7528,
+                "bottomPt": 663.2528
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               561.7527726171875,
@@ -133,13 +173,13 @@
               72.26998901367188,
               663.2527726171875
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec1-p5",
@@ -148,32 +188,60 @@
             "quads": [
               [
                 72.26998901367188,
-                84.26998453124997,
-                293.7539367675781,
-                84.26998453124997,
+                686.390116977539,
                 293.7539367675781,
                 686.390116977539,
+                293.7539367675781,
+                700.390116977539,
                 72.26998901367188,
-                686.390116977539
+                700.390116977539
+              ],
+              [
+                303.7539367675781,
+                84.26998453124997,
+                525.2378845214844,
+                84.26998453124997,
+                525.2378845214844,
+                109.9996293066406,
+                303.7539367675781,
+                109.9996293066406
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 686.3901,
+                "bottomPt": 700.3901
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 84.27,
+                "bottomPt": 109.9996
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               84.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               84.26998453124997,
-              293.7539367675781,
-              686.390116977539,
+              525.2378845214844,
+              700.390116977539,
               72.26998901367188,
-              686.390116977539
+              700.390116977539
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec1-p6",
@@ -186,10 +254,20 @@
                 525.2378845214844,
                 109.9996293066406,
                 525.2378845214844,
-                211.4996293066406,
+                209.68709878906247,
                 303.7539367675781,
-                211.4996293066406
+                209.68709878906247
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 109.9996,
+                "bottomPt": 209.6871
+              }
             ],
             "paragraphQuad": [
               303.7539367675781,
@@ -197,17 +275,17 @@
               525.2378845214844,
               109.9996293066406,
               525.2378845214844,
-              211.4996293066406,
+              209.68709878906247,
               303.7539367675781,
-              211.4996293066406
+              209.68709878906247
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec1-p7",
@@ -225,6 +303,16 @@
                 334.06263284667966
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 234.8959,
+                "bottomPt": 334.0626
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               234.8959458349609,
@@ -235,13 +323,13 @@
               303.7539367675781,
               334.06263284667966
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "fig-sec1",
@@ -259,6 +347,16 @@
                 764.3805191992187
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 635.3857,
+                "bottomPt": 764.3805
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               635.3857071875,
@@ -269,13 +367,13 @@
               303.7539367675781,
               764.3805191992187
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "tbl-sec1",
@@ -288,10 +386,20 @@
                 293.7539367675781,
                 72.26998453124997,
                 293.7539367675781,
-                166.18709878906247,
+                86.26998453124997,
                 72.26998901367188,
-                166.18709878906247
+                86.26998453124997
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 72.27,
+                "bottomPt": 86.27
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
@@ -299,17 +407,17 @@
               293.7539367675781,
               72.26998453124997,
               293.7539367675781,
-              166.18709878906247,
+              86.26998453124997,
               72.26998901367188,
-              166.18709878906247
+              86.26998453124997
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "tbl-sec1-wide",
@@ -322,28 +430,56 @@
                 293.7539367675781,
                 72.26998453124997,
                 293.7539367675781,
-                209.68709878906247,
+                166.18709878906247,
                 72.26998901367188,
-                209.68709878906247
+                166.18709878906247
+              ],
+              [
+                303.7539367675781,
+                209.68709878906247,
+                525.2378845214844,
+                209.68709878906247,
+                525.2378845214844,
+                211.4996293066406,
+                303.7539367675781,
+                211.4996293066406
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 72.27,
+                "bottomPt": 166.1871
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 209.6871,
+                "bottomPt": 211.4996
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               72.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               72.26998453124997,
-              293.7539367675781,
-              209.68709878906247,
+              525.2378845214844,
+              211.4996293066406,
               72.26998901367188,
-              209.68709878906247
+              211.4996293066406
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -361,10 +497,20 @@
                 293.7539367675781,
                 316.07268838867185,
                 293.7539367675781,
-                415.2393754003906,
+                402.82920389160154,
                 72.26998901367188,
-                415.2393754003906
+                402.82920389160154
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 316.0727,
+                "bottomPt": 402.8292
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
@@ -372,17 +518,17 @@
               293.7539367675781,
               316.07268838867185,
               293.7539367675781,
-              415.2393754003906,
+              402.82920389160154,
               72.26998901367188,
-              415.2393754003906
+              402.82920389160154
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec2-p2",
@@ -400,6 +546,16 @@
                 541.585185336914
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 440.0852,
+                "bottomPt": 541.5852
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               440.08518533691404,
@@ -410,13 +566,13 @@
               72.26998901367188,
               541.585185336914
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec2-p3",
@@ -434,6 +590,16 @@
                 663.2643540380859
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 564.0977,
+                "bottomPt": 663.2644
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               564.0976670263672,
@@ -444,13 +610,13 @@
               72.26998901367188,
               663.2643540380859
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec2-p4",
@@ -459,32 +625,60 @@
             "quads": [
               [
                 72.26998901367188,
-                84.26998453124997,
-                293.7539367675781,
-                84.26998453124997,
+                688.1101639746093,
                 293.7539367675781,
                 688.1101639746093,
+                293.7539367675781,
+                702.1101639746093,
                 72.26998901367188,
-                688.1101639746093
+                702.1101639746093
+              ],
+              [
+                303.7539367675781,
+                84.26998453124997,
+                525.2378845214844,
+                84.26998453124997,
+                525.2378845214844,
+                113.18531351074216,
+                303.7539367675781,
+                113.18531351074216
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 688.1102,
+                "bottomPt": 702.1102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 84.27,
+                "bottomPt": 113.1853
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               84.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               84.26998453124997,
-              293.7539367675781,
-              688.1101639746093,
+              525.2378845214844,
+              702.1101639746093,
               72.26998901367188,
-              688.1101639746093
+              702.1101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec2-p5",
@@ -502,6 +696,16 @@
                 214.68531351074216
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 113.1853,
+                "bottomPt": 214.6853
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               113.18531351074216,
@@ -512,13 +716,13 @@
               303.7539367675781,
               214.68531351074216
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec2-p6",
@@ -536,6 +740,16 @@
                 342.7673295019531
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 241.2673,
+                "bottomPt": 342.7673
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               241.2673295019531,
@@ -546,13 +760,13 @@
               303.7539367675781,
               342.7673295019531
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec2-p7",
@@ -570,6 +784,16 @@
                 468.5160172460937
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 369.3493,
+                "bottomPt": 468.516
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               369.349330234375,
@@ -580,13 +804,13 @@
               303.7539367675781,
               468.5160172460937
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "fig-sec2",
@@ -599,10 +823,20 @@
                 293.7539367675781,
                 229.68709878906247,
                 293.7539367675781,
-                402.82920389160154,
+                316.07268838867185,
                 72.26998901367188,
-                402.82920389160154
+                316.07268838867185
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 229.6871,
+                "bottomPt": 316.0727
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
@@ -610,17 +844,17 @@
               293.7539367675781,
               229.68709878906247,
               293.7539367675781,
-              402.82920389160154,
+              316.07268838867185,
               72.26998901367188,
-              402.82920389160154
+              316.07268838867185
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -643,6 +877,16 @@
                 627.092753696289
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 540.0928,
+                "bottomPt": 627.0928
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               540.092753696289,
@@ -653,13 +897,13 @@
               72.26998901367188,
               627.092753696289
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec3-p2",
@@ -677,6 +921,16 @@
                 749.5181534765625
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 650.3515,
+                "bottomPt": 749.5182
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               650.3514664648437,
@@ -687,13 +941,13 @@
               72.26998901367188,
               749.5181534765625
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec3-p3",
@@ -702,32 +956,60 @@
             "quads": [
               [
                 72.26998901367188,
-                332.74045877441404,
-                293.7539367675781,
-                332.74045877441404,
+                775.1101639746093,
                 293.7539367675781,
                 775.1101639746093,
+                293.7539367675781,
+                789.1101639746093,
                 72.26998901367188,
-                775.1101639746093
+                789.1101639746093
+              ],
+              [
+                303.7539367675781,
+                332.74045877441404,
+                525.2378845214844,
+                332.74045877441404,
+                525.2378845214844,
+                356.3328812597656,
+                303.7539367675781,
+                356.3328812597656
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 775.1102,
+                "bottomPt": 789.1102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 332.7405,
+                "bottomPt": 356.3329
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               332.74045877441404,
-              293.7539367675781,
+              525.2378845214844,
               332.74045877441404,
-              293.7539367675781,
-              775.1101639746093,
+              525.2378845214844,
+              789.1101639746093,
               72.26998901367188,
-              775.1101639746093
+              789.1101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec3-p4",
@@ -745,6 +1027,16 @@
                 457.8328812597656
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 356.3329,
+                "bottomPt": 457.8329
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               356.3328812597656,
@@ -755,13 +1047,13 @@
               303.7539367675781,
               457.8328812597656
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec3-p5",
@@ -779,6 +1071,16 @@
                 580.592006015625
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 481.4253,
+                "bottomPt": 580.592
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               481.4253190039062,
@@ -789,13 +1091,13 @@
               303.7539367675781,
               580.592006015625
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec3-p6",
@@ -813,6 +1115,16 @@
                 708.0177414892578
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 606.5177,
+                "bottomPt": 708.0177
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               606.5177414892578,
@@ -823,13 +1135,13 @@
               303.7539367675781,
               708.0177414892578
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec3-p7",
@@ -837,33 +1149,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                127.76998453124997,
-                293.7539367675781,
-                127.76998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 731.6101639746093,
+                525.2378845214844,
+                731.6101639746093,
+                525.2378845214844,
+                745.6101639746093,
+                303.7539367675781,
+                745.6101639746093
+              ],
+              [
                 72.26998901367188,
-                731.6101639746093
+                127.76998453124997,
+                293.7539367675781,
+                127.76998453124997,
+                293.7539367675781,
+                540.092753696289,
+                72.26998901367188,
+                540.092753696289
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 731.6102,
+                "bottomPt": 745.6102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 127.77,
+                "bottomPt": 540.0928
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               127.76998453124997,
-              293.7539367675781,
+              525.2378845214844,
               127.76998453124997,
-              293.7539367675781,
-              731.6101639746093,
+              525.2378845214844,
+              745.6101639746093,
               72.26998901367188,
-              731.6101639746093
+              745.6101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -886,6 +1226,16 @@
                 512.4742997167968
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 383.4795,
+                "bottomPt": 512.4743
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               383.4794877050781,
@@ -896,13 +1246,13 @@
               72.26998901367188,
               512.4742997167968
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p1",
@@ -920,6 +1270,16 @@
                 772.7768509863281
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 673.6102,
+                "bottomPt": 772.7769
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               673.6101639746093,
@@ -930,13 +1290,13 @@
               72.26998901367188,
               772.7768509863281
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p2",
@@ -954,6 +1314,16 @@
                 185.76998453124997
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 86.6033,
+                "bottomPt": 185.77
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               86.60329751953122,
@@ -964,13 +1334,13 @@
               303.7539367675781,
               185.76998453124997
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p3",
@@ -988,6 +1358,16 @@
                 311.8713639257812
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 212.7047,
+                "bottomPt": 311.8714
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               212.70467691406247,
@@ -998,13 +1378,13 @@
               303.7539367675781,
               311.8713639257812
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p4",
@@ -1022,6 +1402,16 @@
                 437.9727280615234
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 338.806,
+                "bottomPt": 437.9727
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               338.80604104980466,
@@ -1032,13 +1422,13 @@
               303.7539367675781,
               437.9727280615234
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p5",
@@ -1056,6 +1446,16 @@
                 566.4074204443359
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 464.9074,
+                "bottomPt": 566.4074
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               464.9074204443359,
@@ -1066,13 +1466,13 @@
               303.7539367675781,
               566.4074204443359
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p6",
@@ -1090,6 +1490,16 @@
                 678.0087845800781
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 591.0088,
+                "bottomPt": 678.0088
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               591.0087845800781,
@@ -1100,13 +1510,13 @@
               303.7539367675781,
               678.0087845800781
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec4-p7",
@@ -1114,33 +1524,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                113.26998453124997,
-                293.7539367675781,
-                113.26998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 702.6101639746093,
+                525.2378845214844,
+                702.6101639746093,
+                525.2378845214844,
+                716.6101639746093,
+                303.7539367675781,
+                716.6101639746093
+              ],
+              [
                 72.26998901367188,
-                702.6101639746093
+                113.26998453124997,
+                293.7539367675781,
+                113.26998453124997,
+                293.7539367675781,
+                383.4794877050781,
+                72.26998901367188,
+                383.4794877050781
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 702.6102,
+                "bottomPt": 716.6102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 113.27,
+                "bottomPt": 383.4795
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               113.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               113.26998453124997,
-              293.7539367675781,
-              702.6101639746093,
+              525.2378845214844,
+              716.6101639746093,
               72.26998901367188,
-              702.6101639746093
+              716.6101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -1163,6 +1601,16 @@
                 574.3600266455078
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 401.2179,
+                "bottomPt": 574.36
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               401.2179215429687,
@@ -1173,13 +1621,13 @@
               72.26998901367188,
               574.3600266455078
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p1",
@@ -1188,32 +1636,60 @@
             "quads": [
               [
                 72.26998901367188,
-                113.26998453124997,
-                293.7539367675781,
-                113.26998453124997,
+                717.1101639746093,
                 293.7539367675781,
                 717.1101639746093,
+                293.7539367675781,
+                731.1101639746093,
                 72.26998901367188,
-                717.1101639746093
+                731.1101639746093
+              ],
+              [
+                303.7539367675781,
+                113.26998453124997,
+                525.2378845214844,
+                113.26998453124997,
+                525.2378845214844,
+                138.23443155273435,
+                303.7539367675781,
+                138.23443155273435
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 717.1102,
+                "bottomPt": 731.1102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 113.27,
+                "bottomPt": 138.2344
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               113.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               113.26998453124997,
-              293.7539367675781,
-              717.1101639746093,
+              525.2378845214844,
+              731.1101639746093,
               72.26998901367188,
-              717.1101639746093
+              731.1101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p2",
@@ -1231,6 +1707,16 @@
                 225.23443155273435
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 138.2344,
+                "bottomPt": 225.2344
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               138.23443155273435,
@@ -1241,13 +1727,13 @@
               303.7539367675781,
               225.23443155273435
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p3",
@@ -1265,6 +1751,16 @@
                 348.75229959472654
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 247.8656,
+                "bottomPt": 348.7523
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               247.86556558593747,
@@ -1275,13 +1771,13 @@
               303.7539367675781,
               348.75229959472654
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p4",
@@ -1299,6 +1795,16 @@
                 472.8834488867187
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 373.7168,
+                "bottomPt": 472.8834
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               373.716761875,
@@ -1309,13 +1815,13 @@
               303.7539367675781,
               472.8834488867187
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p5",
@@ -1333,6 +1839,16 @@
                 599.3478959082031
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 497.8479,
+                "bottomPt": 599.3479
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               497.8478959082031,
@@ -1343,13 +1859,13 @@
               303.7539367675781,
               599.3478959082031
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p6",
@@ -1367,6 +1883,16 @@
                 723.4790299414062
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 621.979,
+                "bottomPt": 723.479
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               621.9790299414062,
@@ -1377,13 +1903,13 @@
               303.7539367675781,
               723.4790299414062
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec5-p7",
@@ -1391,33 +1917,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                142.26998453124997,
-                293.7539367675781,
-                142.26998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 746.1101639746093,
+                525.2378845214844,
+                746.1101639746093,
+                525.2378845214844,
+                760.1101639746093,
+                303.7539367675781,
+                760.1101639746093
+              ],
+              [
                 72.26998901367188,
-                746.1101639746093
+                142.26998453124997,
+                293.7539367675781,
+                142.26998453124997,
+                293.7539367675781,
+                401.2179215429687,
+                72.26998901367188,
+                401.2179215429687
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 746.1102,
+                "bottomPt": 760.1102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 142.27,
+                "bottomPt": 401.2179
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               142.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               142.26998453124997,
-              293.7539367675781,
-              746.1101639746093,
+              525.2378845214844,
+              760.1101639746093,
               72.26998901367188,
-              746.1101639746093
+              760.1101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -1440,6 +1994,16 @@
                 561.4898941992187
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 432.4951,
+                "bottomPt": 561.4899
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               432.4950821875,
@@ -1450,13 +2014,13 @@
               72.26998901367188,
               561.4898941992187
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p1",
@@ -1465,32 +2029,60 @@
             "quads": [
               [
                 72.26998901367188,
-                113.26998453124997,
-                293.7539367675781,
-                113.26998453124997,
+                717.1101639746093,
                 293.7539367675781,
                 717.1101639746093,
+                293.7539367675781,
+                731.1101639746093,
                 72.26998901367188,
-                717.1101639746093
+                731.1101639746093
+              ],
+              [
+                303.7539367675781,
+                113.26998453124997,
+                525.2378845214844,
+                113.26998453124997,
+                525.2378845214844,
+                138.5211136816406,
+                303.7539367675781,
+                138.5211136816406
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 717.1102,
+                "bottomPt": 731.1102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 113.27,
+                "bottomPt": 138.5211
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               113.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               113.26998453124997,
-              293.7539367675781,
-              717.1101639746093,
+              525.2378845214844,
+              731.1101639746093,
               72.26998901367188,
-              717.1101639746093
+              731.1101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p2",
@@ -1508,6 +2100,16 @@
                 252.18780069335935
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 138.5211,
+                "bottomPt": 252.1878
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               138.5211136816406,
@@ -1518,13 +2120,13 @@
               303.7539367675781,
               252.18780069335935
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p3",
@@ -1542,6 +2144,16 @@
                 364.4389145849609
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 277.4389,
+                "bottomPt": 364.4389
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               277.4389145849609,
@@ -1552,13 +2164,13 @@
               303.7539367675781,
               364.4389145849609
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p4",
@@ -1576,6 +2188,16 @@
                 488.8567307470703
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 387.3567,
+                "bottomPt": 488.8567
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               387.3567307470703,
@@ -1586,13 +2208,13 @@
               303.7539367675781,
               488.8567307470703
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p5",
@@ -1610,6 +2232,16 @@
                 610.9412339208984
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 511.7745,
+                "bottomPt": 610.9412
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               511.77454690917966,
@@ -1620,13 +2252,13 @@
               303.7539367675781,
               610.9412339208984
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p6",
@@ -1644,6 +2276,16 @@
                 735.3590348242187
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 636.1923,
+                "bottomPt": 735.359
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               636.1923478125,
@@ -1654,13 +2296,13 @@
               303.7539367675781,
               735.3590348242187
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec6-p7",
@@ -1668,33 +2310,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                156.76998453124997,
-                293.7539367675781,
-                156.76998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 760.6101639746093,
+                525.2378845214844,
+                760.6101639746093,
+                525.2378845214844,
+                774.6101639746093,
+                303.7539367675781,
+                774.6101639746093
+              ],
+              [
                 72.26998901367188,
-                760.6101639746093
+                156.76998453124997,
+                293.7539367675781,
+                156.76998453124997,
+                293.7539367675781,
+                432.4950821875,
+                72.26998901367188,
+                432.4950821875
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 760.6102,
+                "bottomPt": 774.6102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 156.77,
+                "bottomPt": 432.4951
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               156.76998453124997,
-              293.7539367675781,
+              525.2378845214844,
               156.76998453124997,
-              293.7539367675781,
-              760.6101639746093,
+              525.2378845214844,
+              774.6101639746093,
               72.26998901367188,
-              760.6101639746093
+              774.6101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -1717,6 +2387,16 @@
                 607.1188157080078
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 433.9767,
+                "bottomPt": 607.1188
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               433.9767106054687,
@@ -1727,13 +2407,13 @@
               72.26998901367188,
               607.1188157080078
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec7-p1",
@@ -1742,32 +2422,60 @@
             "quads": [
               [
                 72.26998901367188,
-                156.76998453124997,
-                293.7539367675781,
-                156.76998453124997,
+                760.6101639746093,
                 293.7539367675781,
                 760.6101639746093,
+                293.7539367675781,
+                774.6101639746093,
                 72.26998901367188,
-                760.6101639746093
+                774.6101639746093
+              ],
+              [
+                303.7539367675781,
+                156.76998453124997,
+                525.2378845214844,
+                156.76998453124997,
+                525.2378845214844,
+                183.3606675146484,
+                303.7539367675781,
+                183.3606675146484
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 760.6102,
+                "bottomPt": 774.6102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 156.77,
+                "bottomPt": 183.3607
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               156.76998453124997,
-              293.7539367675781,
+              525.2378845214844,
               156.76998453124997,
-              293.7539367675781,
-              760.6101639746093,
+              525.2378845214844,
+              774.6101639746093,
               72.26998901367188,
-              760.6101639746093
+              774.6101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec7-p2",
@@ -1785,6 +2493,16 @@
                 282.52735452636716
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 183.3607,
+                "bottomPt": 282.5274
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               183.3606675146484,
@@ -1795,13 +2513,13 @@
               303.7539367675781,
               282.52735452636716
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec7-p3",
@@ -1819,6 +2537,16 @@
                 410.61802225097654
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 309.118,
+                "bottomPt": 410.618
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               309.11802225097654,
@@ -1829,13 +2557,13 @@
               303.7539367675781,
               410.61802225097654
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec7-p4",
@@ -1853,6 +2581,16 @@
                 535.7621262548828
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 434.8754,
+                "bottomPt": 535.7621
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               434.8753922460937,
@@ -1863,13 +2601,13 @@
               303.7539367675781,
               535.7621262548828
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec7-p5",
@@ -1887,6 +2625,16 @@
                 661.5194809912109
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 562.3528,
+                "bottomPt": 661.5195
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               562.3527939794922,
@@ -1897,13 +2645,13 @@
               303.7539367675781,
               661.5194809912109
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec7-p6",
@@ -1911,33 +2659,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                84.26998453124997,
-                293.7539367675781,
-                84.26998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 688.1101639746093,
+                525.2378845214844,
+                688.1101639746093,
+                525.2378845214844,
+                702.1101639746093,
+                303.7539367675781,
+                702.1101639746093
+              ],
+              [
                 72.26998901367188,
-                688.1101639746093
+                84.26998453124997,
+                293.7539367675781,
+                84.26998453124997,
+                293.7539367675781,
+                433.9767106054687,
+                72.26998901367188,
+                433.9767106054687
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 688.1102,
+                "bottomPt": 702.1102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 84.27,
+                "bottomPt": 433.9767
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               84.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               84.26998453124997,
-              293.7539367675781,
-              688.1101639746093,
+              525.2378845214844,
+              702.1101639746093,
               72.26998901367188,
-              688.1101639746093
+              702.1101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -1960,6 +2736,16 @@
                 209.85329751953122
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 108.3533,
+                "bottomPt": 209.8533
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               108.35329751953122,
@@ -1970,13 +2756,13 @@
               72.26998901367188,
               209.85329751953122
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "fig-sec7",
@@ -1994,6 +2780,16 @@
                 586.9216416357422
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 457.9268,
+                "bottomPt": 586.9216
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               457.9268296240234,
@@ -2004,13 +2800,13 @@
               72.26998901367188,
               586.9216416357422
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec8-p1",
@@ -2019,32 +2815,60 @@
             "quads": [
               [
                 72.26998901367188,
-                127.76998453124997,
-                293.7539367675781,
-                127.76998453124997,
+                731.6101639746093,
                 293.7539367675781,
                 731.6101639746093,
+                293.7539367675781,
+                745.6101639746093,
                 72.26998901367188,
-                731.6101639746093
+                745.6101639746093
+              ],
+              [
+                303.7539367675781,
+                127.76998453124997,
+                525.2378845214844,
+                127.76998453124997,
+                525.2378845214844,
+                154.70467691406247,
+                303.7539367675781,
+                154.70467691406247
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 731.6102,
+                "bottomPt": 745.6102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 127.77,
+                "bottomPt": 154.7047
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               127.76998453124997,
-              293.7539367675781,
+              525.2378845214844,
               127.76998453124997,
-              293.7539367675781,
-              731.6101639746093,
+              525.2378845214844,
+              745.6101639746093,
               72.26998901367188,
-              731.6101639746093
+              745.6101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec8-p2",
@@ -2062,6 +2886,16 @@
                 253.87136392578122
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 154.7047,
+                "bottomPt": 253.8714
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               154.70467691406247,
@@ -2072,13 +2906,13 @@
               303.7539367675781,
               253.87136392578122
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec8-p3",
@@ -2096,6 +2930,16 @@
                 382.30604104980466
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 280.806,
+                "bottomPt": 382.306
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               280.80604104980466,
@@ -2106,13 +2950,13 @@
               303.7539367675781,
               382.30604104980466
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec8-p4",
@@ -2130,6 +2974,16 @@
                 506.07410745605466
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 406.9074,
+                "bottomPt": 506.0741
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               406.9074204443359,
@@ -2140,13 +2994,13 @@
               303.7539367675781,
               506.07410745605466
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec8-p5",
@@ -2164,6 +3018,16 @@
                 646.6754715917968
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 533.0088,
+                "bottomPt": 646.6755
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               533.0087845800781,
@@ -2174,13 +3038,13 @@
               303.7539367675781,
               646.6754715917968
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec8-p6",
@@ -2188,33 +3052,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                84.26998453124997,
-                293.7539367675781,
-                84.26998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 673.6101639746093,
+                525.2378845214844,
+                673.6101639746093,
+                525.2378845214844,
+                687.6101639746093,
+                303.7539367675781,
+                687.6101639746093
+              ],
+              [
                 72.26998901367188,
-                673.6101639746093
+                84.26998453124997,
+                293.7539367675781,
+                84.26998453124997,
+                293.7539367675781,
+                108.35329751953122,
+                72.26998901367188,
+                108.35329751953122
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 673.6102,
+                "bottomPt": 687.6102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 84.27,
+                "bottomPt": 108.3533
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               84.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               84.26998453124997,
-              293.7539367675781,
-              673.6101639746093,
+              525.2378845214844,
+              687.6101639746093,
               72.26998901367188,
-              673.6101639746093
+              687.6101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -2232,10 +3124,20 @@
                 293.7539367675781,
                 108.35329751953122,
                 293.7539367675781,
-                222.01998453124997,
+                185.76998453124997,
                 72.26998901367188,
-                222.01998453124997
+                185.76998453124997
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 108.3533,
+                "bottomPt": 185.77
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
@@ -2243,17 +3145,17 @@
               293.7539367675781,
               108.35329751953122,
               293.7539367675781,
-              222.01998453124997,
+              185.76998453124997,
               72.26998901367188,
-              222.01998453124997
+              185.76998453124997
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "fig-sec8",
@@ -2271,6 +3173,16 @@
                 662.7235672949218
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 489.5815,
+                "bottomPt": 662.7236
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               489.5814621923828,
@@ -2281,13 +3193,13 @@
               72.26998901367188,
               662.7235672949218
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p1",
@@ -2305,6 +3217,16 @@
                 188.10329751953122
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 86.6033,
+                "bottomPt": 188.1033
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               86.60329751953122,
@@ -2315,13 +3237,13 @@
               303.7539367675781,
               188.10329751953122
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p2",
@@ -2339,6 +3261,16 @@
                 299.7046769140625
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 212.7047,
+                "bottomPt": 299.7047
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               212.70467691406247,
@@ -2349,13 +3281,13 @@
               303.7539367675781,
               299.7046769140625
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p3",
@@ -2373,6 +3305,16 @@
                 411.30604104980466
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 324.306,
+                "bottomPt": 411.306
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               324.30604104980466,
@@ -2383,13 +3325,13 @@
               303.7539367675781,
               411.30604104980466
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p4",
@@ -2407,6 +3349,16 @@
                 522.9074204443359
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 435.9074,
+                "bottomPt": 522.9074
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               435.9074204443359,
@@ -2417,13 +3369,13 @@
               303.7539367675781,
               522.9074204443359
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p5",
@@ -2441,6 +3393,16 @@
                 649.0087845800781
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 547.5088,
+                "bottomPt": 649.0088
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               547.5087845800781,
@@ -2451,13 +3413,13 @@
               303.7539367675781,
               649.0087845800781
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p6",
@@ -2475,6 +3437,16 @@
                 775.1101639746093
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 673.6102,
+                "bottomPt": 775.1102
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               673.6101639746093,
@@ -2485,13 +3457,13 @@
               303.7539367675781,
               775.1101639746093
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec9-p7",
@@ -2504,10 +3476,20 @@
                 293.7539367675781,
                 86.60329751953122,
                 293.7539367675781,
-                185.76998453124997,
+                108.35329751953122,
                 72.26998901367188,
-                185.76998453124997
+                108.35329751953122
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 86.6033,
+                "bottomPt": 108.3533
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
@@ -2515,17 +3497,17 @@
               293.7539367675781,
               86.60329751953122,
               293.7539367675781,
-              185.76998453124997,
+              108.35329751953122,
               72.26998901367188,
-              185.76998453124997
+              108.35329751953122
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -2548,6 +3530,16 @@
                 571.9364579199218
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 442.9416,
+                "bottomPt": 571.9365
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               442.9416459082031,
@@ -2558,13 +3550,13 @@
               72.26998901367188,
               571.9364579199218
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p1",
@@ -2573,32 +3565,60 @@
             "quads": [
               [
                 72.26998901367188,
-                127.76998453124997,
-                293.7539367675781,
-                127.76998453124997,
+                717.1101639746093,
                 293.7539367675781,
                 717.1101639746093,
+                293.7539367675781,
+                731.1101639746093,
                 72.26998901367188,
-                717.1101639746093
+                731.1101639746093
+              ],
+              [
+                303.7539367675781,
+                127.76998453124997,
+                525.2378845214844,
+                127.76998453124997,
+                525.2378845214844,
+                153.0211136816406,
+                303.7539367675781,
+                153.0211136816406
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 717.1102,
+                "bottomPt": 731.1102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 127.77,
+                "bottomPt": 153.0211
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               127.76998453124997,
-              293.7539367675781,
+              525.2378845214844,
               127.76998453124997,
-              293.7539367675781,
-              717.1101639746093,
+              525.2378845214844,
+              731.1101639746093,
               72.26998901367188,
-              717.1101639746093
+              731.1101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p2",
@@ -2616,6 +3636,16 @@
                 237.68780069335935
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 153.0211,
+                "bottomPt": 237.6878
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               153.0211136816406,
@@ -2626,13 +3656,13 @@
               303.7539367675781,
               237.68780069335935
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p3",
@@ -2650,6 +3680,16 @@
                 364.4389145849609
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 262.9389,
+                "bottomPt": 364.4389
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               262.9389145849609,
@@ -2660,13 +3700,13 @@
               303.7539367675781,
               364.4389145849609
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p4",
@@ -2684,6 +3724,16 @@
                 486.52341775878904
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 387.3567,
+                "bottomPt": 486.5234
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               387.3567307470703,
@@ -2694,13 +3744,13 @@
               303.7539367675781,
               486.52341775878904
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p5",
@@ -2718,6 +3768,16 @@
                 613.2745469091797
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 511.7745,
+                "bottomPt": 613.2745
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               511.77454690917966,
@@ -2728,13 +3788,13 @@
               303.7539367675781,
               613.2745469091797
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p6",
@@ -2752,6 +3812,16 @@
                 737.6923478125
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 636.1923,
+                "bottomPt": 737.6923
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               636.1923478125,
@@ -2762,13 +3832,13 @@
               303.7539367675781,
               737.6923478125
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec10-p7",
@@ -2776,33 +3846,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                144.60329751953122,
-                293.7539367675781,
-                144.60329751953122,
-                293.7539367675781,
+                303.7539367675781,
                 760.6101639746093,
+                525.2378845214844,
+                760.6101639746093,
+                525.2378845214844,
+                774.6101639746093,
+                303.7539367675781,
+                774.6101639746093
+              ],
+              [
                 72.26998901367188,
-                760.6101639746093
+                144.60329751953122,
+                293.7539367675781,
+                144.60329751953122,
+                293.7539367675781,
+                442.9416459082031,
+                72.26998901367188,
+                442.9416459082031
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 760.6102,
+                "bottomPt": 774.6102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 144.6033,
+                "bottomPt": 442.9416
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               144.60329751953122,
-              293.7539367675781,
+              525.2378845214844,
               144.60329751953122,
-              293.7539367675781,
-              760.6101639746093,
+              525.2378845214844,
+              774.6101639746093,
               72.26998901367188,
-              760.6101639746093
+              774.6101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -2825,6 +3923,16 @@
                 607.6468155859375
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 434.5047,
+                "bottomPt": 607.6468
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               434.5047104833984,
@@ -2835,13 +3943,13 @@
               72.26998901367188,
               607.6468155859375
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec11-p1",
@@ -2850,32 +3958,60 @@
             "quads": [
               [
                 72.26998901367188,
-                171.26998453124997,
-                293.7539367675781,
-                171.26998453124997,
+                760.6101639746093,
                 293.7539367675781,
                 760.6101639746093,
+                293.7539367675781,
+                774.6101639746093,
                 72.26998901367188,
-                760.6101639746093
+                774.6101639746093
+              ],
+              [
+                303.7539367675781,
+                171.26998453124997,
+                525.2378845214844,
+                171.26998453124997,
+                525.2378845214844,
+                198.20467691406247,
+                303.7539367675781,
+                198.20467691406247
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 760.6102,
+                "bottomPt": 774.6102
+              },
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 171.27,
+                "bottomPt": 198.2047
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               171.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               171.26998453124997,
-              293.7539367675781,
-              760.6101639746093,
+              525.2378845214844,
+              774.6101639746093,
               72.26998901367188,
-              760.6101639746093
+              774.6101639746093
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec11-p2",
@@ -2893,6 +4029,16 @@
                 299.7046769140625
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 198.2047,
+                "bottomPt": 299.7047
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               198.20467691406247,
@@ -2903,13 +4049,13 @@
               303.7539367675781,
               299.7046769140625
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec11-p3",
@@ -2927,6 +4073,16 @@
                 423.4727280615234
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 324.306,
+                "bottomPt": 423.4727
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               324.30604104980466,
@@ -2937,13 +4093,13 @@
               303.7539367675781,
               423.4727280615234
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec11-p4",
@@ -2961,6 +4117,16 @@
                 564.0741074560547
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 450.4074,
+                "bottomPt": 564.0741
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               450.4074204443359,
@@ -2971,13 +4137,13 @@
               303.7539367675781,
               564.0741074560547
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec11-p5",
@@ -2995,6 +4161,16 @@
                 690.1754715917968
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 591.0088,
+                "bottomPt": 690.1755
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               591.0087845800781,
@@ -3005,13 +4181,13 @@
               303.7539367675781,
               690.1754715917968
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec11-p6",
@@ -3019,33 +4195,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                113.26998453124997,
-                293.7539367675781,
-                113.26998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 717.1101639746093,
+                525.2378845214844,
+                717.1101639746093,
+                525.2378845214844,
+                731.1101639746093,
+                303.7539367675781,
+                731.1101639746093
+              ],
+              [
                 72.26998901367188,
-                717.1101639746093
+                113.26998453124997,
+                293.7539367675781,
+                113.26998453124997,
+                293.7539367675781,
+                434.5047104833984,
+                72.26998901367188,
+                434.5047104833984
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 717.1102,
+                "bottomPt": 731.1102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 113.27,
+                "bottomPt": 434.5047
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               113.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               113.26998453124997,
-              293.7539367675781,
-              717.1101639746093,
+              525.2378845214844,
+              731.1101639746093,
               72.26998901367188,
-              717.1101639746093
+              731.1101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -3068,6 +4272,16 @@
                 253.60030679687497
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 137.6003,
+                "bottomPt": 253.6003
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               137.60030679687497,
@@ -3078,13 +4292,13 @@
               72.26998901367188,
               253.60030679687497
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "fig-sec11",
@@ -3102,6 +4316,16 @@
                 678.7329819677734
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 549.7382,
+                "bottomPt": 678.733
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               549.7381699560547,
@@ -3112,13 +4336,13 @@
               72.26998901367188,
               678.7329819677734
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec12-p1",
@@ -3136,6 +4360,16 @@
                 188.10329751953122
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 86.6033,
+                "bottomPt": 188.1033
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               86.60329751953122,
@@ -3146,13 +4380,13 @@
               303.7539367675781,
               188.10329751953122
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 0,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec12-p2",
@@ -3170,6 +4404,16 @@
                 314.2046769140625
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 212.7047,
+                "bottomPt": 314.2047
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               212.70467691406247,
@@ -3180,13 +4424,13 @@
               303.7539367675781,
               314.2046769140625
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec12-p3",
@@ -3204,6 +4448,16 @@
                 440.30604104980466
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 336.4727,
+                "bottomPt": 440.306
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               336.4727280615234,
@@ -3214,13 +4468,13 @@
               303.7539367675781,
               440.30604104980466
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec12-p4",
@@ -3238,6 +4492,16 @@
                 566.4074204443359
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 462.5741,
+                "bottomPt": 566.4074
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               462.57410745605466,
@@ -3248,13 +4512,13 @@
               303.7539367675781,
               566.4074204443359
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec12-p5",
@@ -3272,6 +4536,16 @@
                 692.5087845800781
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 591.0088,
+                "bottomPt": 692.5088
+              }
+            ],
             "paragraphQuad": [
               303.7539367675781,
               591.0087845800781,
@@ -3282,13 +4556,13 @@
               303.7539367675781,
               692.5087845800781
             ],
+            "columnIndex": 1,
             "columnLeftPt": 303.7539,
             "columnRightPt": 525.2379,
-            "columnIndex": 1,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           },
           {
             "id": "sec12-p6",
@@ -3296,33 +4570,61 @@
             "lang": "en",
             "quads": [
               [
-                72.26998901367188,
-                113.26998453124997,
-                293.7539367675781,
-                113.26998453124997,
-                293.7539367675781,
+                303.7539367675781,
                 717.1101639746093,
+                525.2378845214844,
+                717.1101639746093,
+                525.2378845214844,
+                731.1101639746093,
+                303.7539367675781,
+                731.1101639746093
+              ],
+              [
                 72.26998901367188,
-                717.1101639746093
+                113.26998453124997,
+                293.7539367675781,
+                113.26998453124997,
+                293.7539367675781,
+                137.60030679687497,
+                72.26998901367188,
+                137.60030679687497
               ]
+            ],
+            "columnSegments": [
+              {
+                "columnIndex": 1,
+                "columnLeftPt": 303.7539,
+                "columnRightPt": 525.2379,
+                "columnWidthPt": 221.4839,
+                "topPt": 717.1102,
+                "bottomPt": 731.1102
+              },
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 113.27,
+                "bottomPt": 137.6003
+              }
             ],
             "paragraphQuad": [
               72.26998901367188,
               113.26998453124997,
-              293.7539367675781,
+              525.2378845214844,
               113.26998453124997,
-              293.7539367675781,
-              717.1101639746093,
+              525.2378845214844,
+              731.1101639746093,
               72.26998901367188,
-              717.1101639746093
+              731.1101639746093
             ],
-            "columnLeftPt": 72.27,
-            "columnRightPt": 293.7539,
             "columnIndex": 1,
+            "columnLeftPt": 303.7539,
+            "columnRightPt": 525.2379,
             "columnWidthPt": 221.4839,
+            "twoColumnLayout": true,
             "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "textWidthPt": 452.9679
           }
         ]
       },
@@ -3345,6 +4647,16 @@
                 238.85329751953122
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 137.3533,
+                "bottomPt": 238.8533
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               137.35329751953122,
@@ -3355,13 +4667,10 @@
               72.26998901367188,
               238.85329751953122
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
-            "columnWidthPt": 221.4839,
-            "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "columnWidthPt": 221.4839
           },
           {
             "id": "fig-sec12",
@@ -3379,6 +4688,16 @@
                 677.5800889013672
               ]
             ],
+            "columnSegments": [
+              {
+                "columnIndex": 0,
+                "columnLeftPt": 72.27,
+                "columnRightPt": 293.7539,
+                "columnWidthPt": 221.4839,
+                "topPt": 504.438,
+                "bottomPt": 677.5801
+              }
+            ],
             "paragraphQuad": [
               72.26998901367188,
               504.4379837988281,
@@ -3389,13 +4708,10 @@
               72.26998901367188,
               677.5800889013672
             ],
+            "columnIndex": 0,
             "columnLeftPt": 72.27,
             "columnRightPt": 293.7539,
-            "columnIndex": 0,
-            "columnWidthPt": 221.4839,
-            "columnSepPt": 10,
-            "textWidthPt": 452.9679,
-            "twoColumnLayout": true
+            "columnWidthPt": 221.4839
           }
         ]
       }

@@ -313,7 +313,7 @@ async function extractPdfGeometry(pdfPath, options = {}) {
         const textContent = await page.getTextContent({ includeMarkedContent: true });
 
         const lines = mergeIntoLines(textContent.items, viewport, textContent.styles);
-        
+
         let elements;
         if (useAnchorMode && anchorMap) {
             elements = await processPageWithAnchors(lines, pageNumber - 1, anchorMap, classifierContext, thresholds, language, elementCounter);
