@@ -11,7 +11,8 @@
     "test": "node src/test-tex-engine.js",
     "test:cli": "node src/cli.js --run-test",
     "demo": "node src/cli.js template/example.xml template/main.tex.xml output.tex",
-    "tex:pdf": "node src/tex-to-pdf.js"
+    "tex:pdf": "node src/tex-to-pdf.js",
+    "xml-tex": "node src/cli.js"
   },
   "keywords": [
     "xml",

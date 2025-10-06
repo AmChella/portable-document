@@ -28,19 +28,6 @@
 \newcommand{\maybeamp}{\ifx\isfirst\relax \global\let\isfirst\undefined \let\sep\relax \else \let\sep\ampchar \fi \sep}
 \newcommand{\cell}[1]{\maybeamp #1}
 
-\makeatletter
-\newcommand{\safeincludegraphics}[2][]{%
-        \begingroup
-                \edef\@tempa{#2}%
-                \ifx\@tempa\@empty
-                        \PackageWarning{xml2tex}{Image path empty; figure omitted.}%
-                \else
-                        \IfFileExists{#2}{\includegraphics[#1]{#2}}{\PackageWarning{xml2tex}{Image #2 not found; figure omitted.}}%
-                \fi
-        \endgroup
-}
-\makeatother
-
 \begin{document}
 
 % Geometry writer (zref-savepos preferred)
@@ -237,7 +224,11 @@
 \begin{figure}[htbp]
 \centering
 \hypertarget{fig-sec2}{}\geommarknow{fig-sec2}{FIG-start}
-\safeincludegraphics[width=\fallback{}{\columnwidth}]{}
+\IfFileExists{}{
+\includegraphics[width=\fallback{}{\columnwidth}]{}
+}{
+\PackageWarning{xml2tex}{Image  not found; figure omitted.}
+}
 
 \IfFileExists{tikz.sty}{
 \begin{tikzpicture}[scale=0.9]
@@ -394,7 +385,11 @@
 \begin{figure}[htbp]
 \centering
 \hypertarget{fig-sec4}{}\geommarknow{fig-sec4}{FIG-start}
-\safeincludegraphics[width=\fallback{}{\columnwidth}]{}
+\IfFileExists{}{
+\includegraphics[width=\fallback{}{\columnwidth}]{}
+}{
+\PackageWarning{xml2tex}{Image  not found; figure omitted.}
+}
 
 \IfFileExists{tikz.sty}{
 \begin{tikzpicture}[scale=0.9]
@@ -550,7 +545,11 @@
 \begin{figure}[htbp]
 \centering
 \hypertarget{fig-sec6}{}\geommarknow{fig-sec6}{FIG-start}
-\safeincludegraphics[width=\fallback{}{\columnwidth}]{}
+\IfFileExists{}{
+\includegraphics[width=\fallback{}{\columnwidth}]{}
+}{
+\PackageWarning{xml2tex}{Image  not found; figure omitted.}
+}
 
 \IfFileExists{tikz.sty}{
 \begin{tikzpicture}[scale=0.9]
@@ -706,7 +705,11 @@
 \begin{figure}[htbp]
 \centering
 \hypertarget{fig-sec8}{}\geommarknow{fig-sec8}{FIG-start}
-\safeincludegraphics[width=\fallback{}{\columnwidth}]{}
+\IfFileExists{}{
+\includegraphics[width=\fallback{}{\columnwidth}]{}
+}{
+\PackageWarning{xml2tex}{Image  not found; figure omitted.}
+}
 
 \IfFileExists{tikz.sty}{
 \begin{tikzpicture}[scale=0.9]
@@ -862,7 +865,11 @@
 \begin{figure}[htbp]
 \centering
 \hypertarget{fig-sec10}{}\geommarknow{fig-sec10}{FIG-start}
-\safeincludegraphics[width=\fallback{}{\columnwidth}]{}
+\IfFileExists{}{
+\includegraphics[width=\fallback{}{\columnwidth}]{}
+}{
+\PackageWarning{xml2tex}{Image  not found; figure omitted.}
+}
 
 \IfFileExists{tikz.sty}{
 \begin{tikzpicture}[scale=0.9]
@@ -1018,7 +1025,11 @@
 \begin{figure}[htbp]
 \centering
 \hypertarget{fig-sec12}{}\geommarknow{fig-sec12}{FIG-start}
-\safeincludegraphics[width=\fallback{}{\columnwidth}]{}
+\IfFileExists{}{
+\includegraphics[width=\fallback{}{\columnwidth}]{}
+}{
+\PackageWarning{xml2tex}{Image  not found; figure omitted.}
+}
 
 \IfFileExists{tikz.sty}{
 \begin{tikzpicture}[scale=0.9]
